@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <!-- font awesome cdn link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+     
+     <!-- custom css file link-->
+      <link rel="stylesheet" href="style.css">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header1">
+        <nav>
+            <a href="index.html"><img src="image/logo.jpg" alt=""></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contect.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+<h1>About Us</h1>
+ </section>
+
+<!--about us content -->
+    <section class="aboutus">
+        <div class="row">
+        <div class="aboutcol">
+            <h1>We are the world's largest university</h1>
+            <p>Welcome to [LJ University], a place where academic excellence, innovation, and diversity come together to create a world-class educational experience.<br> Established in [1990], our university has consistently been at the forefront of higher education, committed to fostering intellectual growth, critical thinking, and global citizenship.<br>
+
+                At [LJ University], we offer a wide range of undergraduate, graduate, and professional programs across various disciplines. <br>Our esteemed faculty members are experts in their fields, dedicated to providing a dynamic learning environment where students can explore new ideas, engage in research, and develop the skills necessary to succeed in a rapidly evolving world.
+                
+                We pride ourselves on our diverse and inclusive community, where students from all backgrounds and cultures come together to learn, collaborate, and grow. <br>Our campus is a hub for innovation, with state-of-the-art facilities, research centers, and a vibrant student life that offers opportunities for personal and professional development.
+                
+                At the heart of our mission is a commitment to producing graduates who are not only academically prepared but also equipped to lead, innovate, and contribute positively to society. Whether you're just starting your academic journey or advancing in your career, [LJ University] is here to support and empower you every step of the way.
+                
+                Join us at [LJ University], where your potential meets opportunity.</p>
+            <a href="" class="hero-btn red-btn">EXPLOR NOW</a>
+        </div>
+        <div class="aboutcol">
+        <img src="image/about.jpg" alt="">
+    </div>
+    </div>
+    </section>
+
+
+
+<!--Call to Action -->
+
+<section class="cta">
+    <h1>Enroll for our various online <br>courses anywhere from the world</h1>
+    <a href="contect.html" class="hero-btn">Contact Us</a>
+
+</section>
+
+
+<!--footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>[LJ University] is a diverse, innovative institution dedicated to fostering academic excellence, critical thinking, and global citizenship through a dynamic learning environment.</p>
+    <div class="icons">
+        <i class="fa fa-user-circle"></i>
+        <i class="fa fa-phone"></i>
+        <i class="fa fa-comment"></i>
+        <i class="fa fa-info"></i>
+        
+    </div>
+    
+</section>
+
+
+
+<!--javascript for toggle menu--->
+<script>
+    var navLinks=document.getElementById("nav-links");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
